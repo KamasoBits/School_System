@@ -2,3 +2,35 @@
     display: flex;
     justify-content: space-between;
 }
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position:relative;
+}
